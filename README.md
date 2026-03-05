@@ -1,61 +1,27 @@
-# EverBank Insurance Commission Operations Portal
+# EverbankFrontend
 
-🏛️ **EverBank** is a professional-grade insurance commission management system designed for enterprise-level operational intelligence and financial transparency.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
 
----
+## Development server
 
-## 🚀 Key Features
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### 🏛️ Operational Dashboard
-*   **Live Metrics**: Real-time tracking of commission liability, active policy portfolio, and payout accuracy.
-*   **Global Activity Feed**: Consolidated view of all agent operations and asset values.
-*   **Portfolio Insights**: Dynamic revenue projections and compliance analysis.
+## Code scaffolding
 
-### 📜 Underwriting & Registry
-*   **Intelligent Underwriting**: Automated form validation for corporate and individual policyholders.
-*   **Seamless Integration**: Immediate generation of premium payments and agent commissions upon policy issuance.
-*   **Policy Registry**: High-fidelity records of all active and historical insurance contracts.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### 💳 Customer & Service Portal
-*   **Active Portfolio**: Unified view for clients to manage their total coverage.
-*   **Financial History**: Full visibility into payment transactions with real-time receipts.
-*   **Direct Downloads**: Generate professional, bank-certified PDF statements and policy certificates.
+## Build
 
----
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 🏗️ Technical Stack
+## Running unit tests
 
-- **Backend**: Spring Boot 3.4 (Java 17, Maven)
-- **Frontend**: Angular 17+ (TypeScript, SCSS)
-- **Document Engine**: OpenPDF for high-fidelity financial statements
-- **Security**: Centralized CORS & Enterprise Auth logic
-- **Database**: H2 (In-Memory for development, persistent DB compatible)
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
----
+## Running end-to-end tests
 
-## ⚙️ Setup & Execution
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-### 📋 Prerequisites
-- Java 17+
-- Node.js (v18+) & Angular CLI
+## Further help
 
-### 🚦 Running the System
-1. **Backend**:
-   ```bash
-   cd everbank-backend
-   ./mvnw.cmd spring-boot:run
-   ```
-2. **Frontend**:
-   ```bash
-   cd everbank-frontend
-   npm start
-   ```
-   *The dashboard will be available at `http://localhost:4202/dashboard`*
-
----
-
-## 👑 Executive Leadership
-- **Vicky Jagdale** — Owner & Senior Advisor
-- **Aditi Kannawar** — Founder
-- **Yash Tarte** — CEO
-- **EverBank Global Support Hub** — `everbank.help@gmail.com`
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
